@@ -15,8 +15,8 @@
         "mainFont": "Poppins",
         "display1Font": "Poppins",
         "display1Size": 4.5,
-        "display2Font": "Poppins",
-        "display2Size": 3,
+        "display2Font": "Roboto",
+        "display2Size": "2.8",
         "display5Font": "Comfortaa",
         "display5Size": 1.5,
         "display7Font": "Comfortaa",
@@ -45,6 +45,11 @@
         "css": "'Comfortaa', display",
         "name": "Comfortaa",
         "url": "https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700"
+      },
+      {
+        "css": "'Roboto', sans-serif",
+        "name": "Roboto",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
     "uniqCompNum": 16,
@@ -217,7 +222,7 @@
               "color": "#ffef00"
             },
             ".mbr-text,.mbr-section-btn": {
-              "color": "#b2c80d"
+              "color": "#ffffff"
             }
           },
           "_name": "header4",
