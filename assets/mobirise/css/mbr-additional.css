@@ -1083,6 +1083,64 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.5;
 }
+.cid-rVv3xC58Re {
+  padding-top: 90px;
+  padding-bottom: 30px;
+  background-color: #232323;
+}
+.cid-rVv3xC58Re .img-wrap {
+  width: 100% !important;
+  height: 100% !important;
+}
+.cid-rVv3xC58Re .row-element,
+.cid-rVv3xC58Re .image-element {
+  padding: 0;
+}
+.cid-rVv3xC58Re .image-element {
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-rVv3xC58Re .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+.cid-rVv3xC58Re .underline {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+.cid-rVv3xC58Re .underline .line {
+  width: 5rem;
+  height: 3px;
+  background: linear-gradient(90deg, #a38dfd, #fe525b);
+  display: inline-block;
+}
+@media (min-width: 1500px) {
+  .cid-rVv3xC58Re .text-content {
+    padding: 5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1499px) {
+  .cid-rVv3xC58Re .text-content {
+    padding: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rVv3xC58Re .text-content {
+    padding: 2rem 1rem;
+  }
+  .cid-rVv3xC58Re .underline .line {
+    height: 2px;
+  }
+  .cid-rVv3xC58Re .mbr-title,
+  .cid-rVv3xC58Re .underline,
+  .cid-rVv3xC58Re .mbr-text,
+  .cid-rVv3xC58Re .mbr-section-btn {
+    text-align: center !important;
+  }
+}
 .cid-rUxuHfkzw0 .dropdown-item:before {
   font-family: MobiriseIcons !important;
   content: '\e966';
@@ -1547,6 +1605,47 @@ section.lazy-placeholder:after {
 .cid-rTN4YfI2OK .mbr-text,
 .cid-rTN4YfI2OK .mbr-section-btn {
   color: #ffffff;
+}
+.cid-rVv25kveOM {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rVv25kveOM .container-fluid {
+  padding: 0 3rem;
+}
+.cid-rVv25kveOM .mbr-text {
+  color: #767676;
+}
+.cid-rVv25kveOM .card-title {
+  text-align: left;
+  color: #ffa0a4;
+}
+.cid-rVv25kveOM p {
+  text-align: left;
+}
+.cid-rVv25kveOM .card-img {
+  text-align: left;
+}
+.cid-rVv25kveOM .card .card-img span {
+  color: #ffa0a4;
+  font-size: 60px;
+  background: linear-gradient(45deg, #ffa0a4, #a38dfd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 767px) {
+  .cid-rVv25kveOM .container-fluid {
+    padding: 0 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .cid-rVv25kveOM .my-col {
+    -webkit-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 15px;
+  }
 }
 #custom-html-g {
   /* Type valid CSS here */
